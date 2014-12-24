@@ -41,7 +41,9 @@ An example of usage is located in the test suite, at https://github.com/marcos-g
 ## Credits
  
 Developed by: 	Marcos García Casado
+
 Personal web:	http://marcosgarciacasado.com
+
 Email:			marcosgarciacasado@gmail.com
  
 ## License
