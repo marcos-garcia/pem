@@ -17,7 +17,15 @@ To install it, just add this dependency to your pom.xml file in your project:
  
 ## Usage
  
-TODO: Write usage instructions
+Provides the classes necessary to launch a process and activate observer events when the stdout of the process launched matches a specific regular expression.
+The package involves three kind of entities:
+
+An observable process in charge of the management of process execution.
+A process status marks the status of a process.
+An observable process event which is activated by the process associated when its stdout
+matches it's regular expression. Then, the event notifies it's observers about being activated. It observes the process, and it is observed by external objects.
+
+An example of usage is located in the test suite, at https://github.com/marcos-garcia/pem/blob/master/src/test/java/com/marcosgarciacasado/pem/ObservableProcessTest.java
  
 ## Contributing
  
@@ -29,7 +37,7 @@ TODO: Write usage instructions
  
 ## History
  
-TODO: Write history
+1.0: First release of the package
  
 ## Credits
  
