@@ -6,14 +6,13 @@ This product manage events for command line executions, which activates when an 
  
 To install it, just add this dependency to your pom.xml file in your project:
 
-<dependencies>
-	<dependency>
-		<groupId>com.marcosgarciacasado</groupId>
-		<artifactId>pem</artifactId>
-		<version>1.0</version>
-	</dependency>
-	...
-</dependencies>
+```
+<dependency>
+    <groupId>com.marcosgarciacasado</groupId>
+    <artifactId>pem</artifactId>
+    <version>1.0</version>
+</dependency>
+```
  
 ## Usage
  
@@ -42,8 +41,8 @@ An example of usage is located in the test suite, at https://github.com/marcos-g
 ## Credits
  
 Developed by: 	Marcos García Casado
-				http://marcosgarciacasado.com
-				marcosgarciacasado@gmail.com
+Personal web:	http://marcosgarciacasado.com
+Email:			marcosgarciacasado@gmail.com
  
 ## License
  
